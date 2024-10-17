@@ -1,0 +1,130 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "editor.semanticHighlighting.enabled": true,
+
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "nest",
+  "workbench.startupEditor": "newUntitledFile",
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [80, 120],
+
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "tabnine.experimentalAutoImports": true,
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\WINDOWS\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "vscode-pets.position": "explorer",
+  "vscode-pets.petColor": "black",
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.theme": "forest",
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  // "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  // "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  // "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  // "editor.inlayHints.padding": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.accessibilitySupport": "off",
+  "git.suggestSmartCommit": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "totalTypeScript.hiddenTips": [
+    "array-type",
+    "type-alias-declaration",
+    "ts-object-type",
+    "basic-types",
+    "interface-declaration",
+    "undefined-keyword",
+    "optional-object-property",
+    "typing-function-parameters",
+    "variable-type-annotation",
+    "any-type",
+    "as-assertion",
+    "union-type",
+    "literal-type",
+    "passing-generics-to-types",
+    "partial-utility-type",
+    "null-keyword",
+    "generic-slots-in-functions",
+    "function-return-type",
+    "non-null-expression",
+    "omit-utility-type",
+    "pick-utility-type",
+    "typeof",
+    "keyof",
+    "readonly-utility-type",
+    "never-keyword",
+    "as-const",
+    "as-const-on-object"
+  ],
+  "dart.flutterHotReloadOnSave": "all",
+  "codeium.enableConfig": {
+    "*": false
+  },
+  "files.eol": "\n"
+}
